@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota</title>
+</head>
+<body>
+    <h1>Insira suas notas:</h1>
+    <form action="/mediaNotaResultado" method="post">
+        <label for="atividade">Nota da atividade prática:</label>
+        <input type="number" step="0.1" name="atividade" max="10" min="0"> <br> <br>
+        <label for="prova">Nota da prova:</label>
+        <input type="number" step="0.1" name="prova" max="10" min="0"> <br>  <br>
+        <label for="teorico">Nota do trabalho teorico:</label>
+        <input type="number" step="0.1" name="teorico" max="10" min="0"> <br>
+        <input type="submit">
+    </form>
+    <a href="/"><button>Voltar</button></a>
+</body>
+</html>
